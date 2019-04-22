@@ -1,0 +1,19 @@
+body {
+   background-color: aliceblue;
+}
+
+/* Looks like the key is to style to border of the rule */
+#horizRule1 {
+   border-top: 1px solid red;
+   border-bottom: 1px solid red;
+}
+
+/* So applying a border applies it to around the HR itself,. I need to keep this in mind */
+#horizRule2 {
+   display: block;
+   border: none;
+   color: darkgoldenrod;
+   height: 1px;
+   background: black;
+   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
