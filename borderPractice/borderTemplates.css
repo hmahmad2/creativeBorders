@@ -42,9 +42,18 @@ body {
 .borderWrap {
    max-width: 700px;
    padding: 1rem;
-   position: relative;
-   background: linear-gradient(to right, green, purple);
-   padding: 3px;
+   /* position: relative; */
+   /* background: linear-gradient(to right, green, purple); */
+   background: repeating-linear-gradient(
+      45deg,
+      purple, /* Gradients from this color... */
+      rgb(5, 233, 5) 10px, /* To this color, within the given pixels!  */
+      rgb(5, 233, 5) 10px,
+      aliceblue 20px,
+      aliceblue 20px,
+      purple 30px
+   );
+   padding: 5px;
    border-radius: 15px;
 }
 
