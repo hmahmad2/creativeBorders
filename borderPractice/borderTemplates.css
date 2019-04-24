@@ -46,20 +46,24 @@ body {
    /* background: linear-gradient(to right, green, purple); */
    background: repeating-linear-gradient(
       45deg,
-      purple, /* Gradients from this color... */
-      rgb(5, 233, 5) 10px, /* To this color, within the given pixels!  */
-      rgb(5, 233, 5) 10px,
-      aliceblue 20px,
-      aliceblue 20px,
-      purple 30px
+      /* purple,*/ /* Gradients from this color... */
+      /* rgb(5, 233, 5) 10px, */ /* To this color, within the given pixels!  */
+      /* rgb(5, 233, 5) 10px, */
+      /* aliceblue 20px, */
+      /* aliceblue 20px, */
+      /* purple 30px */
+      grey,
+      gold 9px,
+      gold 12px,
+      grey 19px
    );
-   padding: 5px;
-   border-radius: 15px;
+   padding: 6px;
+   border-radius: 1rem;
 }
 
 .blogContent {
    background: aliceblue;
    color: black;
    padding: 2rem;
-   border-radius: 12px;
+   border-radius: 2rem;
 }
