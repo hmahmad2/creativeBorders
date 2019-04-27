@@ -59,9 +59,9 @@ body {
 }
 
 #horizRule5 {
-   border: 1;
+   border: 0;
    height: 0;
-   box-shadow: 1px 1px 10px 1px black;
+   box-shadow: 0 0 4px 1px black;
 }
 
 /* Borders */
