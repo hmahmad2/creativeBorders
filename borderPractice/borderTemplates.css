@@ -79,9 +79,11 @@ body {
       /* aliceblue 20px, */
       /* purple 30px */
       grey,
-      gold 9px,
-      gold 12px,
-      grey 19px
+      black 9px,
+      black 9px,
+      aliceblue 18px,
+      aliceblue 18px,
+      grey 27px
    );
    padding: 6px;
    border-radius: 1rem;
@@ -91,7 +93,8 @@ body {
    background: aliceblue;
    color: black;
    padding: 2rem;
-   border-radius: 2rem;
+   margin: -0.5rem -0.5rem 0 -0.5rem;
+   border-radius: 1rem;
 }
 
 .borderWrap2 {
