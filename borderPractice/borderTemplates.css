@@ -70,20 +70,17 @@ body {
    padding: 1rem;
    /* position: relative; */
    /* background: linear-gradient(to right, green, purple); */
-   background: repeating-linear-gradient(
-      45deg,
+   background: linear-gradient(
+      to right,
       /* purple,*/ /* Gradients from this color... */
-      /* rgb(5, 233, 5) 10px, */ /* To this color, within the given pixels!  */
-      /* rgb(5, 233, 5) 10px, */
-      /* aliceblue 20px, */
-      /* aliceblue 20px, */
-      /* purple 30px */
-      grey,
+      /* rgb(5, 233, 5) 10px */ /* To this color, within the given pixels!  */
+      /* grey,
       black 9px,
       black 9px,
       aliceblue 18px,
       aliceblue 18px,
-      grey 27px
+      grey 27px */
+      black, aliceblue, aliceblue, black, aliceblue, aliceblue, black
    );
    padding: 6px;
    border-radius: 1rem;
