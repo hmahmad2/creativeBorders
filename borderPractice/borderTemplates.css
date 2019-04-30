@@ -69,12 +69,12 @@ body {
    background-color: #E6E6E6;
    max-width: 66.0em;
    margin: 0 auto;
-   background-image: linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%);
-   background-image: -o-linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%);
-   background-image: -moz-linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%);
+   /* background-image: linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%); */
+   /* background-image: -o-linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%); */
+   /* background-image: -moz-linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%); */
    background-image: -webkit-linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%);
-   background-image: -ms-linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%);
-   background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.02, aliceblue), color-stop(0.5, black), color-stop(0.98. aliceblue));
+   /* background-image: -ms-linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%); */
+   /* background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.02, aliceblue), color-stop(0.5, black), color-stop(0.98. aliceblue)); */
 }
 
 /* Borders */
