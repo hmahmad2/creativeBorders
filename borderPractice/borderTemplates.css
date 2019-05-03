@@ -65,8 +65,8 @@ body {
 }
 
 .fade_rule {
-   height: 2px;
-   background-color: #E6E6E6;
+   height: 3px;
+   background-color: rgb(218, 189, 30);
    max-width: 66.0em;
    margin: 0 auto;
    /* background-image: linear-gradient(left, aliceblue 2%, black 50%, aliceblue 98%); */
