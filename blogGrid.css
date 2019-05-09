@@ -1,3 +1,11 @@
 body {
-   color: gainsboro;
+   background-color: gainsboro;
+}
+
+.fade_rule {
+   height: 3px;
+   background-color: rgb(218, 189, 30);
+   max-width: 66.0em;
+   margin: 0 auto;
+   background-image: -webkit-linear-gradient(left, gainsboro 2%, black 50%, gainsboro 98%);
 }
