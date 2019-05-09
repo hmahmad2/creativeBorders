@@ -2,10 +2,34 @@ body {
    background-color: gainsboro;
 }
 
+body > div {
+   display: grid;
+   place-items: center;
+   margin: auto;
+}
+
 .fade_rule {
    height: 3px;
    background-color: rgb(218, 189, 30);
    max-width: 66.0em;
    margin: 0 auto;
    background-image: -webkit-linear-gradient(left, gainsboro 2%, black 50%, gainsboro 98%);
+}
+
+.blogWrapper {
+   max-width: 800px;
+   background: -webkit-linear-gradient(
+      top, 
+      gainsboro,
+      rgb(45, 146, 121)
+      );
+   padding: 6px;
+   border-radius: 10px;
+}
+
+.blogContent {
+   background: gainsboro;
+   padding: 2rem;
+   border-radius: 5px;
+   margin-top: -5px;
 }
