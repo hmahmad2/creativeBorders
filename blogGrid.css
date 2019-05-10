@@ -2,22 +2,18 @@ body {
    background-color: gainsboro;
 }
 
-body > div {
+body {
    display: grid;
    place-items: center;
    margin: auto;
 }
 
-.fade_rule {
-   height: 3px;
-   background-color: rgb(218, 189, 30);
-   max-width: 66.0em;
-   margin: 0 auto;
-   background-image: -webkit-linear-gradient(left, gainsboro 2%, black 50%, gainsboro 98%);
+img {
+   width: 200px;
 }
 
 .blogWrapper {
-   max-width: 800px;
+   max-width: 750px;
    background: -webkit-linear-gradient(
       top, 
       gainsboro,
@@ -28,8 +24,47 @@ body > div {
 }
 
 .blogContent {
+   display: grid;
    background: gainsboro;
    padding: 2rem;
    border-radius: 5px;
    margin-top: -5px;
+
+   grid-auto-rows: minmax(30px, auto);
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 1rem;
+   text-align: center;
+}
+
+.postHeader {
+   grid-column: 1;
+   grid-row: 1;
+   grid-column: 1/4;
+   align-self: center;
+   justify-self: center;
+}
+
+.postContent {
+   grid-column: 1;
+   grid-row: 2;
+   align-self: center;
+   /* justify-self: center; */
+}
+
+.postImage {
+   grid-column: 2;
+   grid-row: 2;
+   /* align-self: center; */
+   justify-self: center;
+}
+
+.fade_rule {
+   display: block;
+   height: 3px;
+   background-color: rgb(218, 189, 30);
+   min-width: 30.0em;;
+   max-width: 66.0em;
+   margin: 0 auto;
+   background-image: -webkit-linear-gradient(left, gainsboro 2%, black 50%, gainsboro 98%);
+   grid-column: 1/4;
 }
