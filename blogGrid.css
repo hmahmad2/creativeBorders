@@ -32,7 +32,7 @@ img {
 
    grid-auto-rows: minmax(30px, auto);
    grid-template-columns: repeat(2, 1fr);
-   grid-gap: 1rem;
+   grid-gap: 1em;
    text-align: center;
 }
 
