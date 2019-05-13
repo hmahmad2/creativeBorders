@@ -42,6 +42,7 @@ img {
    grid-column: 1/4;
    align-self: center;
    justify-self: center;
+   border: 1px solid black;
 }
 
 .postContent {
@@ -49,6 +50,7 @@ img {
    grid-row: 2;
    align-self: center;
    /* justify-self: center; */
+   border: 1px solid black;
 }
 
 .postImage {
@@ -56,6 +58,7 @@ img {
    grid-row: 2;
    /* align-self: center; */
    justify-self: center;
+   border: 1px solid black;
 }
 
 .fade_rule {
@@ -67,4 +70,5 @@ img {
    margin: 0 auto;
    background-image: -webkit-linear-gradient(left, gainsboro 2%, black 50%, gainsboro 98%);
    grid-column: 1/4;
+   border: 1px solid black;
 }
