@@ -1,5 +1,5 @@
 body {
-   background-color: gainsboro;
+   background-color: slategray;
 }
 
 body {
@@ -14,15 +14,21 @@ img {
 
 div p {
    font-size: 18px;
-   font-family: 'Dosis', sans-serif;
+   font-family: 'Nunito Sans', sans-serif;
+   color: floralwhite;
+}
+
+div h3 {
+   font-family: 'Nunito Sans', sans-serif;
+   color: antiquewhite;
 }
 
 .blogWrapper {
    max-width: 750px;
    background: -webkit-linear-gradient(
       top, 
-      gainsboro,
-      rgb(45, 146, 121)
+      slategray,
+      rgb(96, 221, 190)
       );
    padding: 6px;
    border-radius: 10px;
@@ -30,7 +36,7 @@ div p {
 
 .blogContent {
    display: grid;
-   background: gainsboro;
+   background: slategray;
    padding: 2rem;
    border-radius: 5px;
    margin-top: -5px;
@@ -81,7 +87,7 @@ div p {
    min-width: 30.0em;;
    max-width: 66.0em;
    margin: 0 auto;
-   background-image: -webkit-linear-gradient(left, gainsboro 2%, black 50%, gainsboro 98%);
+   background-image: -webkit-linear-gradient(left, slategray 2%, black 50%, slategray 98%);
    grid-column: 1/4;
    /* justify-self: center; */
    align-self: center;
