@@ -23,6 +23,11 @@ div h3 {
    color: antiquewhite;
 }
 
+.subscriptionForm {
+   color: bisque;
+   font-family: 'Ubuntu', sans-serif;
+}
+
 .blogWrapper {
    max-width: 750px;
    background: -webkit-linear-gradient(
