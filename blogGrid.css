@@ -23,6 +23,11 @@ div h3 {
    color: antiquewhite;
 }
 
+div button {
+   display: block;
+   margin: 0 auto;
+}
+
 .subscriptionForm {
    color: bisque;
    font-family: 'Ubuntu', sans-serif;
