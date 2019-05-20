@@ -4,6 +4,7 @@ body {
 
 body {
    display: grid;
+   /* grid-template-columns: repeat(3, 1fr); */
    place-items: center;
    margin: auto;
 }
@@ -32,6 +33,14 @@ div button {
 .subscriptionForm {
    color: bisque;
    font-family: 'Ubuntu', sans-serif;
+}
+
+.color-changers {
+   text-align: center;
+}
+
+#greenColorButton, #otherColorButton {
+   display: inline-block;
 }
 
 .blogWrapper {
