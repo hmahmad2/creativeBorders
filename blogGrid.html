@@ -9,7 +9,7 @@
    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Ubuntu" rel="stylesheet">
 </head>
 <body>
-   <div class="blogWrapper">
+   <div id="colorDiv" class="blogWrapper">
       <div class="blogContent">
          <h3 class="postHeader">Lamenting the screech of water pipes</h3>
          <p class="postContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quis tempore! Suscipit incidunt in ducimus soluta porro dolorem maiores corporis sunt facilis, amet placeat totam? Quisquam sed distinctio doloribus veniam.</p>
@@ -50,8 +50,17 @@
    </div>
 
    <div class="color_changers">
-      <button id="greenColorButton"></button>
-      <button id="otherColorButton"></button>
+      <button id="greenColorButton" onclick="greenBorder()">Make the border green</button>
+      <button id="otherColorButton" onclick="pinkBorder()">Make the border pink</button>
    </div>
+
+   <script>
+      function greenBorder() {
+         document.getElementById("colorDiv").style.background = "-webkit-linear-gradient(top, slategray,  rgb(96, 221, 190))";
+      }
+      function pinkBorder() {
+         document.getElementById("colorDiv").style.background = "-webkit-linear-gradient(top, slategray, pink)";
+      }
+   </script>
 </body>
 </html>
