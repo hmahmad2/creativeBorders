@@ -50,7 +50,7 @@
    </div>
 
    <br>
-   
+
    <div class="color_changers">
       <button id="greenColorButton" onclick="greenBorder()">Make the border green</button>
       <button id="otherColorButton" onclick="pinkBorder()">Make the border pink</button>
@@ -60,8 +60,13 @@
       function greenBorder() {
          document.getElementById("colorDiv").style.background = "-webkit-linear-gradient(top, slategray,  rgb(96, 221, 190))";
       }
+
       function pinkBorder() {
          document.getElementById("colorDiv").style.background = "-webkit-linear-gradient(top, slategray, pink)";
+      }
+
+      function textChange() {
+         document.getElementsByTagName("p").style.color = "aliceblue";
       }
    </script>
 </body>
