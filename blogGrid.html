@@ -12,7 +12,7 @@
    <div id="colorDiv" class="blogWrapper">
       <div class="blogContent">
          <h3 class="postHeader">Lamenting the screech of water pipes</h3>
-         <p class="postContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quis tempore! Suscipit incidunt in ducimus soluta porro dolorem maiores corporis sunt facilis, amet placeat totam? Quisquam sed distinctio doloribus veniam.</p>
+         <p id="textColor1" class="postContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quis tempore! Suscipit incidunt in ducimus soluta porro dolorem maiores corporis sunt facilis, amet placeat totam? Quisquam sed distinctio doloribus veniam.</p>
          <img src="assets/ruler.jpg" alt="Ruler" class="postImage">
 
          <br>
@@ -21,7 +21,7 @@
 
       <div class="blogContent">
          <h3 class="postHeader">Headache of the day</h3>
-         <p class="postOnlyContent">Today is really rough, got a major headache. Albeit, it could be worse, I could have a worse headache like I was having the other day. Anxiety still getting to me, though not as bad as it used to be so... yay? I'm not operating at peak capacity like I would like to, but I still function. That's not nothing. I just wish that the anxiety would quell and give me a chance at peace of mind.</p>
+         <p id="textColor2" class="postOnlyContent">Today is really rough, got a major headache. Albeit, it could be worse, I could have a worse headache like I was having the other day. Anxiety still getting to me, though not as bad as it used to be so... yay? I'm not operating at peak capacity like I would like to, but I still function. That's not nothing. I just wish that the anxiety would quell and give me a chance at peace of mind.</p>
 
          <br>
          <div class="fade_rule"></div>
@@ -56,9 +56,9 @@
       <button id="otherColorButton" onclick="pinkBorder()">Make the border pink</button>
    </div>
 
-   <!-- <div class="text_color_changer">
-      <button onclick="textColorChange();">Click to change the text color of the blog</button>
-   </div> -->
+   <div class="text_color_changer">
+      <button onclick="textColorChange()">Click to change the text color of the blog</button>
+   </div>
 
    <script>
       function greenBorder() {
@@ -69,9 +69,10 @@
          document.getElementById("colorDiv").style.background = "-webkit-linear-gradient(top, slategray, pink)";
       }
 
-      // function textColorChange() {
-      //    document.getElementsByTagName('*').style.color = "purple";
-      // }
+      function textColorChange() {
+         document.getElementById("textColor1").style.color = "purple";
+         document.getElementsByClassName("postOnlyContent").style.color = "purple";
+      }
    </script>
 </body>
 </html>
