@@ -9,6 +9,11 @@ body {
    margin: auto;
 }
 
+h3 {
+   background-color: indigo;
+   color: lawngreen;
+}
+
 img {
    width: 200px;
 }
